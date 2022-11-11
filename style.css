@@ -21,21 +21,22 @@ html {
 body {
     margin: 0;
     padding: 0;
+    text-align: center;
 
 }
-
 .useful-links {
     display: inline-block;
     position: relative;
     color: #416788;
     font-size: 35px;
+
 }
 .useful-links::after { 
   position: absolute;
   content: " ";
   width: 100%;
   transform: scaleX(0);
-  height: 2px;
+  height: 4px;
   bottom: 0;
   left: 0;
   background-color: #416788;
@@ -51,7 +52,7 @@ body {
   content: " ";
   width: 100%;
   transform: scaleX(0);
-  height: 2px;
+  height: 5px;
   bottom: 0;
   left: 0;
   background-color: #416788;
