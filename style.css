@@ -1,7 +1,7 @@
 * {
     box-sizing:border-box;
 }
-/* */
+/* https://visme.co/blog/website-color-schemes/ Color Scheme = Cool and Fresh*/
 @font-face{
     src: url(fonts/SpaceGrotesk-Medium.ttf);
     font-family:mainfont;
@@ -23,6 +23,9 @@ body {
     padding: 0;
     text-align: center;
 
+}
+.link-container {
+    background-color: #EDF5E1;
 }
 .useful-links {
     display: inline-block;
@@ -69,7 +72,7 @@ body {
     text-align: center;
     font-family: mainfont;
     font-size: 50px;
-    background-color:#EDF5E1 ;
+    background-color:#5cdb95;
     padding-top: .75em;
 }
 
