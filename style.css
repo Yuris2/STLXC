@@ -27,6 +27,7 @@ body {
 .link-container {
     background-color: #EDF5E1;
 }
+
 .useful-links {
     text-decoration: none;
     display: inline-block;
@@ -293,7 +294,9 @@ label, input, textarea {
 
 #contact {
     text-align: left;
-    font-size: 3rem;
+    font-size: 3.5rem;
+    font-family: mainfont-bold;
+    color:#EDF5E1;
     display: inline;
     position: relative;
 
@@ -303,7 +306,7 @@ label, input, textarea {
     content: '';
     height: 2px;
     width: 40%;
-    background: whitesmoke;
+    background: #EDF5E1;
     position: absolute;
     left: calc(50% - 21%);
     bottom: 0;
@@ -321,16 +324,16 @@ label, input, textarea {
     width: 100%;
 }
 .email {
-    font-family: Poppins;
+    font-family: sidefont;
     width: 100%;
     border: 0;
-    border-bottom: 2px solid whitesmoke;
+    border-bottom: 2px solid #EDF5E1;
     background:none;
     outline: 0;
     font-size: 1.3rem;
     padding: 7px 0;
-    transition: border-color 0.2s;
-    color: whitesmoke;
+
+    color: #EDF5E1;
 }
 
 .email::placeholder {
@@ -339,10 +342,11 @@ label, input, textarea {
 #email {
     position: absolute;
     top: 0;
+    font-family: mainfont;
     display: block;
     transition:0.2s;
     font-size: 1rem;
-    color: whitesmoke;
+    color: #EDF5E1;
 }
 
 .email:placeholder-shown ~ #email {
@@ -355,7 +359,7 @@ label, input, textarea {
     padding-bottom: 6px;
     font-weight: 700;
     border-width: 3px;
-    border-image: linear-gradient(to right, #ff0062, #00ffff);
+    /*border-image: linear-gradient(to right, #ff0062, #00ffff); */
     border-image-slice: 1;
 }
 .email:focus ~ #email {
@@ -364,21 +368,21 @@ label, input, textarea {
     display: block;
     transition: 0.2s;
     font-size: 1rem;
-    color:whitesmoke;
+    color:#EDF5E1;
     font-weight: 700;
 }
 
 .subject {
-    font-family: Poppins;
+    font-family: sidefont;
     width: 100%;
     border: 0;
-    border-bottom: 2px solid whitesmoke;
+    border-bottom: 2px solid #EDF5E1;
     background:none;
     outline: 0;
     font-size: 1.3rem;
     padding: 7px 0;
     transition: border-color 0.2s;
-    color: whitesmoke;
+    color: #EDF5E1;
 }
 
 .subject::placeholder {
@@ -386,11 +390,12 @@ label, input, textarea {
 }
 #subject {
     position: absolute;
+    font-family: mainfont;
     top: 0;
     display: block;
     transition:0.2s;
     font-size: 1rem;
-    color: whitesmoke;
+    color: #EDF5E1;
 }
 
 .subject:placeholder-shown ~ #subject {
@@ -403,7 +408,7 @@ label, input, textarea {
     padding-bottom: 6px;
     font-weight: 700;
     border-width: 3px;
-    border-image: linear-gradient(to right, #ff0062, #00ffff);
+    /*border-image: linear-gradient(to right, #ff0062, #00ffff);*/
     border-image-slice: 1;
 }
 .subject:focus ~ #subject {
@@ -412,7 +417,7 @@ label, input, textarea {
     display: block;
     transition: 0.2s;
     font-size: 1rem;
-    color:whitesmoke;
+    color:#EDF5E1;
     font-weight: 700;
 }
 
@@ -435,7 +440,7 @@ label, input, textarea {
     border: none;
     background: none;
     appearance: none;
-    border: 2px solid whitesmoke;
+    border: 2px solid #EDF5E1;
     width: 100%;
     border-radius: 5px;
     display: block;
@@ -449,29 +454,30 @@ label, input, textarea {
 .submit {
     border: none;
     background: none;
-    border: 2px solid whitesmoke;
-    color: white;
+    border: 2px solid #EDF5E1;
+    color: #EDF5E1;
     width: 25%;
     font-size: 1.2rem;
     border-radius: 20px;
 }
 
 .submit:hover {
-    border:2px solid #333;
-    color:#333;
+    border:2px solid #05386B;
+    color:#05386B
 }
 
 .error_messages {
-    text-align: left;
+    text-align: center;
     font-size: 1rem;
     display: block;
     position: relative;
     margin: 1rem;
+    font-family: sidefont;
 }
 
 #message {
     text-align: center;
-    font-family: Poppins;
+    font-family: mainfont;
 }
 .maintext {
     font-family: mainfont-bold;
