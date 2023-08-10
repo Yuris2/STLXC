@@ -90,7 +90,7 @@ body {
 .stlXcTitle {
     font-size  : 1.5rem;
     margin: 1rem;
-    font-family: 'Caveat', cursive;
+    font-family: mainfont;
 }
 
 .navbar-locations ul {
